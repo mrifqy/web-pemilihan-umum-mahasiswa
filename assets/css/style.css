@@ -1,0 +1,189 @@
+#tombol {
+  margin: 10px 10px 0 10px;
+}
+
+.ml1 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml1 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml1 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml1 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 0 0;
+}
+
+.ml1 .line1 {
+  top: 0;
+}
+.ml1 .line2 {
+  bottom: 0;
+}
+
+
+/* Menu Admin */
+
+.t1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  font-style: bold;
+  font-size: 35pt;
+  color: #fff;
+  font-family:Arial, Helvetica, sans-serif;
+  }
+  .t2 {
+    text-align: center;
+    font-style: bold;
+    font-size: 20pt;
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+  .t3 {
+     text-align: center;
+     font-style: bold;
+     font-size: 10pt;
+     color: #fff;
+     font-family: Arial, Helvetica, sans-serif;
+     }
+
+.btn-tengah {
+  margin-top: 25px;
+  }
+
+
+/* Data PEmilu */
+
+.datapemilu{
+  padding-top: 25px;
+  padding-bottom: 20px;
+  background-color: rgb(6, 1, 71);
+  text-align: center;
+  font-style: bold;
+  font-size: 25pt;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+}
+
+.tb-isi{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.btn-admin {
+  text-align: center;
+}
+
+/* Voting */
+
+.tvoting {
+  background-color:rgb(14, 0, 24);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  font-style: bold;
+  font-size: 25pt;
+  color: #fff;
+  font-family::monospace;
+}
+.tvoting2 {
+  background-color:rgb(14, 0, 24);
+  text-align: center;
+  padding-bottom: 20px;
+  font-style: normal;
+  font-size: 12pt;
+  color: #fff;
+  font-family::monospace;
+}
+
+.tb-presutama{
+  background-color: rgb(22, 13, 78);
+  margin-top: 30px;
+  border-image-outset: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 430px;
+  margin-right: 430px;
+}
+
+.calon1{
+  margin-right: 950px;
+}
+.calon2{
+  margin-left: 950px;
+}
+
+.tombolcalon1 {
+  align-items: center;
+
+}
+
+.container {
+  max-width: 400px;
+  margin-top: 100px;
+}
+
+.judul {
+  margin-bottom: 50px;
+}
+
+.carousel {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.dropdown {
+  right: 50px;
+}
+
+.logout {
+  margin: 20px 20px 0 0;
+}
+
+.navbar-brand {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Salam */
+
+.tsalam {
+  margin-top: 280px;
+  color: #fff;
+  font-size: 40pt;
+  font-family: monospace;
+}
+
+.tsalam2 {
+  color: #fff;
+  font-size: 20pt;
+  font-family: monospace;
+  margin-bottom: 30px;
+}
+
+/* hasil */
+
+.hasil{
+  color: #fff;
+  text-align: center;
+  font-size: 20pt;
+}

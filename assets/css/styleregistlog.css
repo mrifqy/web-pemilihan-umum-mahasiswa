@@ -1,0 +1,31 @@
+.container {
+  max-width: 400px;
+  margin-top: 100px;
+}
+
+.container-daftar {
+  max-width: 400px;
+  margin-top: 30px;
+}
+
+.judul {
+  margin-bottom: 50px;
+  color: #ffffff;
+}
+
+.putih {
+  color: #ffffff;
+}
+
+.carousel {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.dropdown {
+  right: 50px;
+}
+
+.back {
+  right: 50px;
+}
