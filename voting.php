@@ -24,12 +24,17 @@
 <nav class="navbar-expand-lg navbar navbar-dark bg-primary">
   <div class="container-fluid">
     <div class="navbar-brand"> Welcome 
-        <?php
+    <?php
             session_start(); 
             echo $_SESSION['email'];
 
             if(empty($_SESSION['email'])) {
-                header("location:login.php?pesan=belum_login");
+                echo "
+                    <script>
+                        alert('Anda belum login. Silakan login terlebih dahulu.');
+                        document.location.href = 'login.php';
+                    </script>
+                ";
             }
         ?>
     </div>

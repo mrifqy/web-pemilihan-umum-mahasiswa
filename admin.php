@@ -21,6 +21,19 @@
     }
 </style>
 <body>
+<?php
+            session_start(); 
+            echo $_SESSION['email'];
+
+            if(empty($_SESSION['email'])) {
+                echo "
+                    <script>
+                        alert('Anda belum login. Silakan login terlebih dahulu.');
+                        document.location.href = 'login.php';
+                    </script>
+                ";
+            }
+        ?>
     <div class="logout text-end">
         <a href="logout.php">
             <button class="btn btn-danger" >Logout</button>
